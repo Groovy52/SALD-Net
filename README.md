@@ -27,12 +27,12 @@ RoI pooling head
 ---
 
 # Environment Settings 
-Please refer to INSTALL.md for the installation of SALD-Net.
+Please refer to [INSTALL.md](docs/INSTALL.md) for the installation of SALD-Net.
 
 ---
 
 # Getting Started
-Please refer to GETTING_STARTED.md for running this project.
+Please refer to [GETTING_STARTED.md](docs/GETTING_STARTED.md) for running this project.
 
 ---
 
