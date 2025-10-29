@@ -3,7 +3,7 @@
 SALD-Net is a self-attention-integrated LiDAR-based 3D object detection framework designed for **autonomous robot navigation** in complex environments such as hospitals. SALD-Net enhances detection accuracy for small and occluded objects through tailored attention mechanisms (BAM & RAM) and point cloud augmentation.
 
 ## Overview
-- [Introduction](#introduction)
+- [Detailed Description](#detailed-description)
 - [Network Design](#network-design)
 - [Environment Settings](#environment-settings)
 - [Getting Started](#getting-started)
@@ -11,24 +11,12 @@ SALD-Net is a self-attention-integrated LiDAR-based 3D object detection framewor
 
 ---
 
-# Introduction
-The operation of medical service robots in hospitals faces several challenges in the development of vision perception algorithms for AMRs(Autonomous Mobile Robots):
-
-**1. Data Acquisition:**
-- Problem: Risk of personal information leakage.
-- Solution: Selected dataset types tailored to the unique environment.
-
-**2. Algorithm Development:**
-- Problem: Complex, crowded hospital scenes with high-risk patients (elderly or disabled).
-- Solution: Enhanced contextual learning within scenes for safer operation.
-
-**3. Data Processing:**
-- Problem: Limited training data and sensor noise causing imperfect point clouds.
-- Solution: Applied data augmentation and robust preprocessing pipelines.
+# Detailed Description
+please click to [SALD-Net.pdf link](docs/SALD-Net.pdf)
 
 ---
 
-# Main Ideas
+# Network Design
 
 Our model SALD-Net is illustrated below:
 
@@ -43,11 +31,17 @@ The SALD-Net follows a two-stage end-to-end 3D detection framework: the first st
 ### 1. Simple Augmentation
 gt autmentation
 
+related to code (code/)
+
 ### 2. BAM
 backbone
 
+related to code (code/)
+
 ### 3. RAM
 RoI pooling head 
+
+related to code (code/)
 
 ---
 
